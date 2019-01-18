@@ -11,6 +11,5 @@ export class AssociatoComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  jhdsvnkf
+test
 }
