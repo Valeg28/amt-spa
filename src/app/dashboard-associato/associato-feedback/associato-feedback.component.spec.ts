@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AdminAssociatoComponent } from './admin-associato.component';
+import { AssociatoFeedbackComponent } from './associato-feedback.component';
 
-describe('AdminAssociatoComponent', () => {
-  let component: AdminAssociatoComponent;
-  let fixture: ComponentFixture<AdminAssociatoComponent>;
+describe('AssociatoFeedbackComponent', () => {
+  let component: AssociatoFeedbackComponent;
+  let fixture: ComponentFixture<AssociatoFeedbackComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AdminAssociatoComponent ]
+      declarations: [ AssociatoFeedbackComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AdminAssociatoComponent);
+    fixture = TestBed.createComponent(AssociatoFeedbackComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

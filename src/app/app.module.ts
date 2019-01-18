@@ -22,7 +22,16 @@ import { CompletaRegistrazioneComponent } from './completa-registrazione/complet
 import { RicercaComponent } from './ricerca/ricerca.component';
 import { ProfiloAssInfoComponent } from './profilo-ass-info/profilo-ass-info.component';
 import { ProfiloAssFeedComponent } from './profilo-ass-feed/profilo-ass-feed.component';
-import { AdminAssociatoComponent } from './dashboard-admin/admin-associato/admin-associato.component';
+import { AdminAssociatiComponent } from './dashboard-admin/admin-associati/admin-associati.component';
+import { AdminUtentiComponent } from './dashboard-admin/admin-utenti/admin-utenti.component';
+import { AdminArticoliComponent } from './dashboard-admin/admin-articoli/admin-articoli.component';
+import { AdminFeedComponent } from './dashboard-admin/admin-feed/admin-feed.component';
+import { AdminMessaggiComponent } from './dashboard-admin/admin-messaggi/admin-messaggi.component';
+import { AssociatoInfoComponent } from './dashboard-associato/associato-info/associato-info.component';
+import { AssociatoCompetenzeComponent } from './dashboard-associato/associato-competenze/associato-competenze.component';
+import { AssociatoFeedbackComponent } from './dashboard-associato/associato-feedback/associato-feedback.component';
+import { AssociatoMessaggiComponent } from './dashboard-associato/associato-messaggi/associato-messaggi.component';
+
 // Routes
 const appRoutes: Routes = [
 
@@ -40,7 +49,17 @@ const appRoutes: Routes = [
   { path: 'profilo-ass-info', component: ProfiloAssInfoComponent},
   { path: 'profilo-ass-feed', component: ProfiloAssFeedComponent},
   { path: 'profilo-ass-competenza', component: ProfiloAssCompetenzaComponent},
+  { path: 'admin-associati', component: AdminAssociatiComponent},
+  { path: 'admin-utenti', component: AdminUtentiComponent},
+  { path: 'admin-articoli', component: AdminArticoliComponent},
+  { path: 'admin-feed', component: AdminFeedComponent},
+  { path: 'admin-messaggi', component: AdminMessaggiComponent},
+  { path: 'associato-info', component: AssociatoInfoComponent},
+  { path: 'associato-competenze', component: AssociatoCompetenzeComponent},
+  { path: 'associato-feedback', component: AssociatoFeedbackComponent},
+  { path: 'associato-messaggi', component: AssociatoMessaggiComponent},
 
+  
 
 ];
 
@@ -64,7 +83,15 @@ const appRoutes: Routes = [
     RicercaComponent,
     ProfiloAssInfoComponent ,
     ProfiloAssFeedComponent,
-    AdminAssociatoComponent,
+    AdminAssociatiComponent,
+    AdminUtentiComponent,
+    AdminArticoliComponent,
+    AdminFeedComponent,
+    AdminMessaggiComponent,
+    AssociatoInfoComponent,
+    AssociatoCompetenzeComponent,
+    AssociatoFeedbackComponent,
+    AssociatoMessaggiComponent,
   ],
   imports: [
     BrowserModule,

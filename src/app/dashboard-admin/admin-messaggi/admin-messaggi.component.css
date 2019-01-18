@@ -1,0 +1,72 @@
+.margin-circle{
+	margin: -13px -25px;
+}
+.buttonuser2{
+	position: fixed;
+	top :18px;
+	float: right;
+	right: 120px;
+	margin-right: 20px;
+	padding-top: 15px;
+	background-color: transparent;
+	border: 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.buttonuser:hover{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: 0px;
+
+}
+.associato-dash{
+		padding: 120px 0 0;
+}
+
+.associato-dash .boxered form .form-control {
+    box-shadow: none;
+	border-radius: 0;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+.associato-dash .boxered input{
+	border-radius: 0;
+	box-shadow: none;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.scatola1{
+	 -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+	margin: 2% 0;
+	padding: 15px;
+}
+.associato-dash h5{
+	color: #000;
+}
+#box-dash a{
+	color: #2747F2;
+	line-height: 5;
+	text-decoration: underline;
+}
+#box-dash p{
+	color: #ccc;
+}
+/*associato-competenze.html*/
+
+#box-dash-competenze button{
+	padding-bottom: 5px;
+	margin: 10px 0;
+	text-align: center;
+	align-content: center;
+	margin-left: 44%;
+	
+	
+}
+#box-dash-competenze button:last-child{
+	margin-bottom: 10%;
+}
