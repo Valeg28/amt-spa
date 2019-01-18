@@ -1,0 +1,84 @@
+<app-topnav></app-topnav>
+<div class="profilo-associato">
+  <div class="fascia-colorata">
+    <div class="col-md-2"></div>
+    <div class="col-md-1">
+      <a routerLink="/ricerca"><i class="fas fa-arrow-left 2x"></i></a>
+    </div>
+    <div class="col-md-1">
+      <img src="assets/img/person3.jpg" alt="avvocato" class="clip-circle">
+    </div>
+    <div class="col-md-2">
+      <p class="nome-associato">{{associato.username}}</p><!--creare .ts-->
+      <p>Associato dal 20 Febbraio 2019</p>
+    </div>
+      <div class="col-md-4">
+      </div>
+  </div>
+  <div class="pagina-informazioni-ass">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="nav navbar-nav ">
+              <li><a class="link-info black" routerLink='/profilo-ass-info' routerLinkActive='active'>Informazioni</a></li>
+              <li><a class="link-info" routerLink='/profilo-ass-competenza' routerLinkActive='active'>Competenza</a></li>
+              <li><a class="link-info"routerLink='/profilo-ass-feed' routerLinkActive='active'>Feedback</a></li>
+                 </ul>
+        </div>
+        <div class="col-md-4">
+        </div>
+        
+      </div>
+      
+      <div class="row">
+        <hr>
+      <div class="contenuto-info">
+        <div class="col-md-6">
+          <div class="mappa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44818.20644749601!2d11.856226086900456!3d45.40655865959852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eda5841ab30cf%3A0xc18236edaa1a2e2c!2sPadova+PD!5e0!3m2!1sit!2sit!4v1547221927793" width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li><i class="fas fa-at 1x"></i> info@amtassociati.it</li>
+            <li><i class="fas fa-phone 1x"></i> +39 34672345345</li>
+            <li><i class="fas fa-map-marker"></i> via Venezia 151, Padova</li>
+            <li><i class="fas fa-globe"></i> Italiano, Inglese</li>
+          </ul>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      </div>
+      <div class="row">
+        
+        <form action="invia_mail.php" name="contatti" method="post">
+          <div class="col-md-6">
+            <p class="margin1">Pensi che il profilo di  sia interessante?<br>
+          Lascia un messaggio!</p>
+            <p class="margin1">
+            
+              <input type="text" name="nome" id="nome" class="form-control" placeholder="Nome">
+                <!--obbligatorio id e name-->
+            </p>
+            <p class="margin1">
+              
+              <input type="text" name="email" id="email" class="form-control " placeholder="Email" required>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="margin2">
+            
+            <textarea name="messaggio" id="messaggio" class="form-control" placeholder="Messaggio" required></textarea>
+          </p>
+          </div>
+        
+            
+            <input type="submit" value="Invia" class="submit">
+      
+        </form>
+      </div>
+    
+    </div>
+  </div>
+  
+</div>

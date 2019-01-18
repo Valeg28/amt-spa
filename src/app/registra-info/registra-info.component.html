@@ -1,0 +1,74 @@
+<app-topnav></app-topnav>
+<div class="registra">
+  <div class="container">
+    <h1>Inserisci le tue informazioni</h1>
+    <h5>Per la tua sicurezza, la password deve contenere almeno 8 caratteri.</h5>
+    <div class="md-stepper-horizontal">
+      <div class="md-step ">
+        <div class="md-step-circle"><span>1</span></div>
+        <div class="md-step-title">Seleziona il tuo ruolo</div>
+        <div class="md-step-bar-left"></div>
+        <div class="md-step-bar-right"></div>
+      </div>
+      <div class="md-step active">
+        <div class="md-step-circle"><span>2</span></div>
+        <div class="md-step-title">Inserisci informazioni</div>
+        <div class="md-step-bar-left"></div>
+        <div class="md-step-bar-right"></div>
+      </div>
+      <div class="md-step ">
+        <div class="md-step-circle"><span>3</span></div>
+        <div class="md-step-title">Completa registrazione</div>
+        <div class="md-step-bar-left"></div>
+        <div class="md-step-bar-right"></div>
+      </div>
+    </div>
+    <div class="mattoncini-form">
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="inputwithicon">
+            <input type="text" name="nome" class="form-control" placeholder="Nome">
+            <i class="fas fa-user icona" aria-hidden="true"></i>
+          </div>
+          <div class="inputwithicon">
+             <input type="tel" name="usrtel"  class="form-control" placeholder="Telefono">
+            <i class="fas fa-phone icona" aria-hidden="true"></i>
+          </div>
+          <div class="inputwithicon">
+          <input type="email" name="emailaddress"  class="form-control" placeholder="Email">
+            <i class="fas fa-envelope icona" aria-hidden="true"></i>
+          </div>
+          <div class="inputwithicon">
+          <input type="password" name="pwd"  class="form-control" placeholder="Password">
+            <i class="fas fa-lock icona" aria-hidden="true"></i>
+          </div>
+          <div class="inputwithicon">
+          <input type="password" name="pwd"  class="form-control" placeholder="Conferma Password">
+            <i class="fas fa-lock icona" aria-hidden="true"></i>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <form>
+          <div class="inputwithicon">
+          <input type="text" name="indirizzo" class="form-control" placeholder="Indirizzo (Via, Civico)">
+            <i class="fas fa-map-marker-alt icona" aria-hidden="true"></i>
+            
+          </div>
+          <input type="text" name="città" class="form-control" placeholder="Città">
+          <i class="fas fa-map-pin icona" aria-hidden="true"></i>
+          <input type="text" name="provincia" class="form-control form-control3 " placeholder="Provincia">
+          <input type="number" name="cap" class="form-control form-control3" id="smaller" placeholder="Cap">
+          <input type="text" name="codice-fiscale" class="form-control" placeholder="Codice Fiscale">
+          <input type="number" name="partita-iva" class="form-control" placeholder="Partita Iva">
+        </form>
+      </div>
+    </div>
+      
+    </div>
+  </div>
+  <button type="submit" class="btnlogin" ><a routerLink='/completa-registrazione' routerLinkActive='active'>Continua</a></button><i class="fas fa-angle-right fa-2x"></i>
+</div>
+  
+  

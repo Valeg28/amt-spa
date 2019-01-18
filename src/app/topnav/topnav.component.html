@@ -1,0 +1,105 @@
+<!--
+<div class="uk-margin-xlarge-left uk-margin-xlarge-right  ">
+        <nav class="uk-navbar-container uk-navbar-transparent uk-padding-xlarge uk-padding-remove-bottom" uk-navbar>
+          <div class="uk-navbar-left">
+              <ul class="uk-navbar-nav">
+                  <li class="uk-active"><a href="#"><span uk-icon="menu"></span></a></li>
+                  <li routerLink="" routerLinkActive="active">
+                      <h2 class="customfont uk-margin-remove">AMT</h2> <p class="uk-text-small uk-margin-remove">Associazione Mediatori Trasformativi</p>
+                       <img data-src="assets/img/logo.png" uk-img  width="120" height="120">
+                </li>
+              </ul>
+          </div>
+
+          <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav">
+                <li routerLink="" routerLinkActive="active">
+                      <h2 class="customfont uk-margin-remove">AMT</h2> <p class="uk-text-small uk-margin-remove">Associazione Mediatori Trasformativi</p>
+                      <img data-src="assets/img/logo.png" uk-img  width="120" height="120">
+                </li>
+            </ul>
+        </div>
+
+          <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav">
+                  <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+                  <li><a routerLink="/news" routerLinkActive="active">News</a></li>
+                  <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+                  <li><a routerLink="/search" routerLinkActive="active"><span uk-icon="search"></span></a></li>
+                  <li><a class="uk-navbar-toggle" href="#modal-full" uk-search-icon uk-toggle uk-tooltip="Cerca consulenti"></a></li>
+                  <li><a href="#" uk-tooltip="Login"><span uk-icon="user"></span></a></li>
+              </ul>
+          </div>
+          <hr>
+      </nav>
+</div>
+<hr class="uk-margin-remove">
+
+
+<div id="modal-full" class="uk-modal-full uk-modal" uk-modal>
+    <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" uk-height-viewport>
+        <button class="uk-modal-close-full" type="button" uk-close></button>
+
+        <div class="uk-container uk-text-center">
+
+                <div class="logo uk-align-top uk-position-top uk-margin-large-top">
+                    <img data-src="assets/img/logo.png" uk-img  width="200" height="200">
+                </div>
+
+                <div class="header ">
+
+                    <h1 class="customfont uk-heading-primary">
+                        Trova un consulente.
+                    </h1>
+                    <p class="uk-text-meta">Hai bisogno di assistenza personalizzata per te, la tua azienda o il tuo istituto scolastico? Trova facilmente il consulente più adatto alle tue esigenze.</p>
+                </div>
+
+                <div class="bar uk-background-muted uk-margin-large x">
+                    <form class="uk-search uk-search-large">
+                        <input class="uk-search-input uk-text-center" type="search" placeholder="Inserisci il nome di una città..." autofocus>
+                    </form>
+                </div>
+
+
+
+        </div>
+
+    </div>
+</div> -->
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-brand navbar-brand-centered">
+          <img src="assets/img/logo.png" href="index.html" alt="logo-amt" width="160" height="65" style="margin: 0 auto;">
+          </div>
+          </div>
+    
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-brand-centered">
+                  <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+                      <li><a href="#about-us" target="_self">About us</a></li>
+                      <li><a href="#news" target="_self">News</a></li>
+                      <li><a href="#contatti" target="_self">Contatti</a></li>
+                  </ul>
+                  <form class="search pull-right">
+                      <input class="form-control mr-sm-2 pull-left" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0 pull-right" type="submit"><i class="fas fa-search 1x"></i></button>
+                  </form>
+                  <button type="button" class="buttonuser">
+                      <a routerLink='/login' routerLinkActive='active'><i class="fas fa-user"></i></a>
+                  </button>
+          </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+      <div class="clearfix"></div>

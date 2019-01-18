@@ -1,0 +1,43 @@
+<app-topnav></app-topnav>
+<div class="associati">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+      <h1>I nostri associati</h1>
+        <p>Cerca i nostri associati nella zona più vicina a te</p>
+      </div>
+      <div class="col-md-8">
+      </div>
+    </div>
+    <!-- Search form -->
+      <div class="row"> 
+        <form (ngSubmit)='ricerca()'>
+      <div class="col-md-3">
+         <input class="form-control" type="text" placeholder="Inserisci città" aria-label="Search" [(ngModel)]='provincia' name="provincia">
+      </div>
+      <div class="col-md-1">
+          <button class="btn-default"><i class="fas fa-search 1x openclosesearch"></i></button>
+      </div>
+        </form>
+      
+       
+      <div class="col-md-8"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-4"  *ngFor='let associato of associati'>
+            <div class="box">
+            <strong><p class="nome-associato">{{associato.username}}</p></strong>
+            <p>{{associato.specialization}}</p>
+            <img src="assets/img/person3.jpg" alt="avvocato">
+            <p class="margin1">{{associato.bio}}</p>
+            <hr>
+            
+            <a routerLink="/profilo-ass-info">vedi profilo<i class="fas fa-arrow-circle-right"></i></a>
+          </div>
+          
+        </div>
+      
+      </div>
+    </div>
+    
+  </div>

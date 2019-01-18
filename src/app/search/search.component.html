@@ -1,0 +1,36 @@
+<app-topnav></app-topnav>
+
+<br>
+<br>
+
+<div class="uk-container uk-text-center">
+
+  <div class="header">
+      <h1 class="customfont uk-heading-primary">
+          Trova un consulente.
+      </h1>
+      <p class="uk-text-meta">Hai bisogno di assistenza personalizzata per te, la tua azienda o il tuo istituto scolastico? Trova facilmente il consulente più adatto alle tue esigenze.</p>
+  </div>
+
+  <br>
+
+  <div class="bar">
+    <p>Inserisci il nome o il CAP della tua città per trovare un consulente nella tua zona:</p>
+
+
+    <form id='form' method='GET' (ngSubmit)='getAssociati()'>
+        <input type='search' placeholder="Cerca consulenti" [(ngModel)]='provincia' name='provincia'>
+    </form>
+    <br>
+    <button class="uk-button uk-button-primary" type="submit" form="form" value="Submit">Cerca</button>
+  </div>
+
+  <br><br>
+
+  <div *ngFor="let item of associati">
+      {{item.email}}
+    </div>
+
+</div>
+
+

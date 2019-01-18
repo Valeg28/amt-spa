@@ -1,0 +1,54 @@
+.profilo-associato{
+	padding: 120px 0 0;
+}
+.fascia-colorata .svg-inline--fa  {
+	font-size: 30px;
+}
+.fascia-colorata{
+	padding-top: 5px;
+	background-color: #0092ac;
+	height: 80px;
+	color: #fff;
+	margin: auto 0;
+	vertical-align: middle;
+}
+.profilo-associato img{
+	height: 70px;
+}
+.nome-associato{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.clip-circle {
+  clip-path: circle(50% at center);
+}
+
+.link-info:focus{
+	color: #000;
+	font-weight: bold;
+	
+}
+.contenuto-info li{
+	list-style-type: none;
+	line-height: 35px;
+	padding-top: 5%;
+	
+}
+.contenuto-info ul{
+	margin-left: 10%;
+}
+.contenuto-info{
+	padding-top: 2%;
+}
+.margin2{
+	margin-top: 17%;
+}
+.pagina-informazioni-ass .submit{
+	
+    margin: 5% -4.5%;
+
+}
+.pagina-informazioni-ass textarea.form-control{
+	height: 96px;
+}

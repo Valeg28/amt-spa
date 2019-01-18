@@ -1,0 +1,19 @@
+.newspage{
+	padding-top:120px;
+	padding-left: 35px;
+	margin-top:25px;
+}
+.newspage img{
+	width: 780px;
+	height: 400px;
+}
+.description{
+	color: #A7A7A7;
+}
+.newspage p:not(.description){
+	font-size: 15px;
+	padding-bottom: 70px;
+}
+.newspage .svg-inline--fa  {
+	font-size: 30px;
+}
