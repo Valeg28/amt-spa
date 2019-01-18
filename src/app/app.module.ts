@@ -22,6 +22,7 @@ import { CompletaRegistrazioneComponent } from './completa-registrazione/complet
 import { RicercaComponent } from './ricerca/ricerca.component';
 import { ProfiloAssInfoComponent } from './profilo-ass-info/profilo-ass-info.component';
 import { ProfiloAssFeedComponent } from './profilo-ass-feed/profilo-ass-feed.component';
+import { AdminAssociatoComponent } from './dashboard-admin/admin-associato/admin-associato.component';
 // Routes
 const appRoutes: Routes = [
 
@@ -63,6 +64,7 @@ const appRoutes: Routes = [
     RicercaComponent,
     ProfiloAssInfoComponent ,
     ProfiloAssFeedComponent,
+    AdminAssociatoComponent,
   ],
   imports: [
     BrowserModule,
