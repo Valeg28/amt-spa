@@ -4,6 +4,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import {NgxPageScrollModule} from 'ngx-page-scroll';
+ 
+
 
 import { AppComponent } from './app.component';
 import { TopnavComponent } from './topnav/topnav.component';
@@ -31,6 +34,7 @@ import { AssociatoInfoComponent } from './dashboard-associato/associato-info/ass
 import { AssociatoCompetenzeComponent } from './dashboard-associato/associato-competenze/associato-competenze.component';
 import { AssociatoFeedbackComponent } from './dashboard-associato/associato-feedback/associato-feedback.component';
 import { AssociatoMessaggiComponent } from './dashboard-associato/associato-messaggi/associato-messaggi.component';
+import { ResetComponent } from './reset/reset.component';
 
 // Routes
 const appRoutes: Routes = [
@@ -58,7 +62,7 @@ const appRoutes: Routes = [
   { path: 'associato-competenze', component: AssociatoCompetenzeComponent},
   { path: 'associato-feedback', component: AssociatoFeedbackComponent},
   { path: 'associato-messaggi', component: AssociatoMessaggiComponent},
-
+  { path: 'reset', component: ResetComponent},
   
 
 ];
@@ -92,10 +96,12 @@ const appRoutes: Routes = [
     AssociatoCompetenzeComponent,
     AssociatoFeedbackComponent,
     AssociatoMessaggiComponent,
+    ResetComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    NgxPageScrollModule,
     RouterModule.forRoot(
       appRoutes,
       { scrollPositionRestoration: 'enabled' },
@@ -107,3 +113,4 @@ const appRoutes: Routes = [
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

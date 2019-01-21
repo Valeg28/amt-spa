@@ -209,6 +209,9 @@ strong{
     float: right;
 }
 /*CONTATTI*/
+#contatti{
+	padding: 80px 0;
+}
 .indirizzi{
 	padding-top: 10%;
 		margin-left: 20%;
