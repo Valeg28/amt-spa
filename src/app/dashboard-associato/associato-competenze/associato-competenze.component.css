@@ -1,0 +1,12 @@
+#box-dash-competenze button{
+	padding-bottom: 5px;
+	margin: 10px 0;
+	text-align: center;
+	align-content: center;
+	margin-left: 44%;
+	
+	
+}
+#box-dash-competenze button:last-child{
+	margin-bottom: 10%;
+}
