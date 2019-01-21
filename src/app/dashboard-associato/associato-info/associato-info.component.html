@@ -1,21 +1,41 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+  <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-brand navbar-brand-centered">
+      <img src="/assets/img/logo.png" href="index.html" alt="logo-amt" width="160" height="65" style="margin: 0 auto;">
+      </div>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+     <div class="">
+             
+             
+       <button type="button" class="buttonuser2">
+        <a href="#"><i class="fas fa-bell"></i></a>
+      </button>
+              <button type="button" class="buttonuser">
+                  <a href="#" ><img src="/assets/img/image-circle.png" alt="user" width="50px" height="50px" class="margin-circle"></a>
+              </button>
+     </div>
+  </div><!-- /.container-fluid -->
+  </nav>
+  <div class="clearfix"></div>
 <div class="associato-dash">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-2">
-				<img src="img/image-circle.png" alt="profilo">
-				</div>
-				<div class="col-md-3">
-					<p class="nome-associato">Carla Colotti</p>
-				<p>Associato dal 20 Febbraio 2019</p>
-				</div>
-				<div class="col-md-7"></div>
-			</div>
+			
 			<div class="row">
 				<ul class="nav navbar-nav ">
-                   	<li><a class="link-info black" href="associato.html">Informazioni</a></li>
-                   	<li><a class="link-info " href="associato-competenze.html">Competenza</a></li>
-                   	<li><a class="link-info" href="associato-feedback.html">Feedback</a></li>
-					<li><a class="link-info" href="associato-messaggi.html">Messaggi</a></li>
+            <li><a class="link-info black " routerLink='/associato-info'>Informazioni</a></li>
+            <li><a class="link-info " routerLink='/associato-competenze'>Competenza</a></li>
+            <li><a class="link-info" routerLink='/associato-feedback'>Feedback</a></li>
+           <li><a class="link-info" routerLink='/associato-messaggi'>Messaggi</a></li>
             	</ul>
 			</div>
 				<hr>

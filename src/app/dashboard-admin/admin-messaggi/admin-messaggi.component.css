@@ -1,3 +1,98 @@
+.navbar{
+    background-color: #fff;
+    border-radius: 0px;
+    border:1px solid #eee;
+    height: 80px;
+    
+    }
+    .navbar-nav{
+      padding-top: 17px;
+    }
+    .buttonuser{
+    position: fixed;
+    top :18px;
+    float: right;
+    right: 40px;
+    margin-right: 20px;
+    padding-top: 15px;
+    background-color: transparent;
+    border: 0px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    }
+    .buttonuser:hover{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 0px;
+    
+    }
+    .buttonuser:focus{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 0px;
+    }
+    .search {
+      position: fixed;
+      right: 100px;
+      top: 25px;
+    }
+    .search .form-control {
+      width: auto;
+      box-shadow: none;
+      border-top: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      border-right: none;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    .search button {
+      border-left: none;
+      border-right: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      background-color: #F7F7F7;
+    }
+    .form-control:focus {
+    border-color: #ccc;
+    }
+    .navbar-toggle {
+    margin-right: 35px;
+    border: none;
+    background: transparent !important;
+    }
+    .navbar-toggle:hover {
+    background: transparent !important;
+    }
+    .navbar-toggle .icon-bar {
+    width: 22px;
+    transition: all 0.2s;
+    }
+    .navbar-toggle .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+    }
+    .navbar-toggle .middle-bar {
+    opacity: 0;
+    }
+    .navbar-toggle .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+    }
+    .navbar-toggle.collapsed .top-bar {
+    transform: rotate(0);
+    }
+    .navbar-toggle.collapsed .middle-bar {
+    opacity: 1;
+    }
+    .navbar-toggle.collapsed .bottom-bar {
+    transform: rotate(0);
+    } 
 .margin-circle{
 	margin: -13px -25px;
 }
@@ -69,4 +164,7 @@
 }
 #box-dash-competenze button:last-child{
 	margin-bottom: 10%;
+}
+.navbar-brand{
+    padding: 0%;
 }
